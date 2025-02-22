@@ -1,0 +1,11 @@
+/* Correct usage of calc() */
+#container {
+  width: calc(100% - 20px);
+  border: 1px solid black; 
+}
+
+/* Incorrect usage of calc() - note extra spaces around the operator */
+#container-incorrect {
+  width: calc( 100% - 20px ); /* Incorrect: Notice the spaces */
+  border: 1px solid red; 
+}
